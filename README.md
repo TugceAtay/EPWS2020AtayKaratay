@@ -14,11 +14,11 @@ Man will nur eine Kleinigkeit einkaufen gehen und kauft dennoch auf dem Weg
 zum Wunschprodukt im Laden viel mehr ein, als eigentlich benötigt wird.
 Auf der Suche nach einem bestimmten Artikel/ Produkt wird man auf viele andere Sachen 
 aufmerksam, die man nicht benötigt, trotzdem mit in den Einkaufswagen legt. Somit 
-hat man Zuhause vieles Doppelt und Mehrfach oder sogar es liegen unnötige Sachen in den
-Schränken, die darauf warten nach einer Weile entsorgt zu werden. Das Geld wurde vermutlich
-verschwendet, obwohl man doch so vieles mehr damit machen könnte.
-
-
+hat man Zuhause vieles doppelt und dreifach oder es liegen  sogar unnötige Sachen in den
+Schränken, die darauf warten, nach einer Weile entsorgt zu werden. Dies hat nicht nur dem Nutzer das Geld gekostet,
+sondern auch sein Geld. Neben dem verschwendeten Geld und der verschwendeten Zeit haben wir auch den positiven Nebeneffekt,
+dass Essen nicht unnötig verschwendet wird. Foodwasting ist ein wichtiges Thema für alle, denn wir sind alle gemeinsam daran
+Schuld, dass mehrere tausend Tonnen Essen jährlich weggeschmissen werden.
 
 Was soll warum behandelt werden?“
 Beschreibung z.B. textuell und/oder durch ein Domänenmodell möglich
