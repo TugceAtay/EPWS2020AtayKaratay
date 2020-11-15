@@ -1,6 +1,5 @@
 # Projektplan
 
-
 ## Audit 1
 |Aufgaben | [Hilal Karatay](https://github.com/HilalKaratay) | [Tugce Atay](https://github.com/TugceAtay)|
 |-------- | ----- | ----- |
