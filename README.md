@@ -17,17 +17,16 @@ Schränken, die darauf warten nach einer Weile entsorgt zu werden. Das Geld wurd
 verschwendet, obwohl man doch so vieles mehr damit machen könnte.
 
 ### Szenario 
-Beispiel Szenario, wenn man in der Drogerie einkaufen ist: 
-Man geht nur um ein Shampoo zu kaufen in die Drogerie und benötigt ebenfalls noch Glasreiniger.
-Wenn man den Laden betritt ist man gewöhnlich erst einmal in der Kosmetik Abteilung, wo
-generell die Männlichen Personen direkt daran vorbei gehen. Als Frau ist es nicht so einfach. 
-Man verschwendet die ersten 20 Minuten damit, sich verschiedene Lippenstift Farben anzuschauen 
-und diese auf dem Handgelenk zu testen. Im Einkaufswagen liegen jetzt 3 Kosmetikartikel die 
-man einfach zum testen kauft und nicht auf der Einkaufsliste gelistet war. 
-
+Wenn der Freund einmal alleine einkaufen geht, ist es gewöhnlich, dass er für die Freundin 
+mal einiges mitbringen muss. Diese Produkte würde er sich selbst nicht holen, deshlab weiß
+er auch nicht genau wo diese Produkte liegen. Man muss erstmal lange suchen, evtl. ein
+paar mal daran vorbei laufen, weil man nicht weiß wie die Verpackung aussieht und im Laden
+ist gerade keine der Angestellten zu sehen, die einem weiter helfen kann. 
 
 ### Problemlösung 
-Die Suche nach dem Wunsch Produkt wird mit einer einfachen Anwendung gelöst.
+Die Suche nach dem Wunsch Produkt wird mit einer einfachen Anwendung gelöst. Der Nutzer gibt
+sein Wunsch Produkt in die Suche ein, evtl. mit einem Filter der in dem Einkaufsladen vorhandenen 
+Marken und die Anwendung zeigt in welchem im welchem Gang und Regal es sich befindet inklusive den Weg dorthin.
 
 
 
