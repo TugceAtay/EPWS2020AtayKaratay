@@ -44,6 +44,7 @@ Außerdem kann der Nutzer sein Wunschprodukt in die Suche eingeben, um dort den 
 
 
 ### Relevanz
+
 Die Relevanz unserer Problemstellung ist zum einen eine gesellschaftliche Relevanz, da unsere Anwendung dem stressigen Alltag vieler Menschen entgegenwirkt und einige Aufgaben im Alltag erleichtert.
 Die Anwendung soll den Nutzer bei der Umsetzung der Planung helfen nicht nur Geld, sondern auch viel Zeit zu sparen. Diese Relevanz wird verstärkt durch das Interesse der Mehrheit der Gesellschaft,
 da das Problem ein allgemeines Problem ist und doch nicht so selten ist. Vorhersehbar ist, dass nicht jeder diese Anwendung nutzen wird, da die Planung des Einkaufes intensiv sein kann.
