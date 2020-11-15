@@ -21,7 +21,7 @@ Wenn der Freund einmal alleine einkaufen geht, ist es gewöhnlich, dass er für 
 mal einiges mitbringen muss. Diese Produkte würde er sich selbst nicht holen, deshlab weiß
 er auch nicht genau wo diese Produkte liegen. Man muss erstmal lange suchen, evtl. ein
 paar mal daran vorbei laufen, weil man nicht weiß wie die Verpackung aussieht und im Laden
-ist gerade keine der Angestellten zu sehen, die einem weiter helfen kann. 
+ist gerade keine der Angestellten zu sehen, die einem weiter helfen könnte. 
 
 ### Problemlösung 
 Die Suche nach dem Wunsch Produkt wird mit einer einfachen Anwendung gelöst. Der Nutzer gibt
