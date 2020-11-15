@@ -7,7 +7,7 @@ Hilal Karatay, Martklnr.:
 
 # Expose
 - Produkte finden beim einkaufen wird Ihnen erleichtert. 
-### Problembeschreibung
+### Darstellung des Problemraums
 Man will nur eine Kleinigkeit einkaufen gehen und kauft dennoch auf dem Weg 
 zum Wunschprodukt im Laden viel mehr ein, als eigentlich benötigt wird.
 Auf der Suche nach einem bestimmten Artikel/ Produkt wird man auf viele andere Sachen 
@@ -23,10 +23,21 @@ er auch nicht genau wo diese Produkte liegen. Man muss erstmal lange suchen, evt
 paar mal daran vorbei laufen, weil man nicht weiß wie die Verpackung aussieht und im Laden
 ist gerade keine der Angestellten zu sehen, die einem weiter helfen könnte. 
 
-### Problemlösung 
+### Zielsetzung / Vision
 Die Suche nach dem Wunsch Produkt wird mit einer einfachen Anwendung gelöst. Der Nutzer gibt
 sein Wunsch Produkt in die Suche ein, evtl. mit einem Filter der in dem Einkaufsladen vorhandenen 
 Marken und die Anwendung zeigt in welchem im welchem Gang und Regal es sich befindet inklusive den Weg dorthin.
 
 
+### Relevanz
+Die Relevanz unserer Problemstellung ist zum einen eine gesellschaftliche Relevanz, da unsere Entwickelte
+Anwendung .... 
+und zum anderen eine wissenschaftliche Relevanz, da sie wie beschrieben einen wissens-orientierten Mehrwert bringt 
 
+
+"Inwiefern ist die Adressierung dieser bestimmten Problemstellung mittels dieser bestimmen Zielsetzung relevant?"
+Es gibt verschiedene Dimensionen, in welche sich die Relevanz ausprägen kann:
+gesellschaftliche Relevanz: trägt zur öko-sozialen Transformation bei
+wissenschaftliche Relevanz: bringt einen wissens-orientierten Mehrwert
+wirtschaftliche Relevanz: z.B. schließt eine Marktlücke, unterstützt innovative Geschäftsmodelle, …
+Es ist von Vorteil wenn ein Projekt mehrfach relevant ist.
