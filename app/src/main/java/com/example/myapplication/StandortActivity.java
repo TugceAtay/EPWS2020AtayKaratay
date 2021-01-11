@@ -15,9 +15,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class StandortActivity extends AppCompatActivity implements View.OnClickListener{
 
-    TextView begruessung, tvdatenerfassen, ptGebGes, ptName, ptAdresse, ptTelEmail;
+    TextView begruessung;
+    EditText ptGebGes, ptName, ptAdresse, ptTelEmail;
     ImageView standort;
-    EditText standortEingabe;
     Button btnWeiter;
 
     final String prefNameFirstStart = "FirstAppStart";
@@ -39,15 +39,22 @@ public class StandortActivity extends AppCompatActivity implements View.OnClickL
         ptGebGes = findViewById(R.id.ptGebGes);
 
         btnWeiter.setOnClickListener(this);
+
+
+        ptGebGes.setOnClickListener(view -> ptGebGes.setText(""));
+
+        ptName.setOnClickListener(view -> ptName.setText(""));
+
+        ptTelEmail.setOnClickListener(view -> ptTelEmail.setText(""));
+
+        ptAdresse.setOnClickListener(view -> ptAdresse.setText(""));
     }
 
     @Override
     public void onClick(View view){
-
         Intent intent = new Intent(this, GeschaefteActivity.class);
         startActivity(intent);
         this.finish();
-
     }
 
     public boolean firstAppStart(){   //Soll zeigen, dass die App das erste mal gestartet wird

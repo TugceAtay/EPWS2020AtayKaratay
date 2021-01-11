@@ -35,7 +35,7 @@
 
     <ImageView
         android:id="@+id/standort"
-        android:layout_width="328dp"
+        android:layout_width="343dp"
         android:layout_height="230dp"
         android:layout_gravity="center"
         android:backgroundTint="#FFFFFF"
@@ -54,43 +54,40 @@
             android:id="@+id/ptName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="top"
+            android:layout_gravity="center|top"
+            android:autofillHints=""
             android:ems="10"
-            android:gravity="top"
             android:inputType="textPersonName"
-            android:text="@string/ptName"
-            android:autofillHints="" />
+            android:hint="@string/ptName"/>
 
         <EditText
             android:id="@+id/ptAdresse"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="top"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="40dp"
-            android:backgroundTint="#FFFFFF"
-            android:gravity="top"
+            android:layout_gravity="center|top"
+            android:autofillHints=""
+            android:ems="10"
             android:inputType="textPersonName"
-            android:text="@string/ptAdresse" />
+            android:hint="@string/ptAdresse" />
 
         <EditText
             android:id="@+id/ptGebGes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:autofillHints="@string/ptGebGes"
+            android:layout_gravity="center|top"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="@string/ptGebGes" />
+            android:hint="@string/ptGebGes" />
 
         <EditText
             android:id="@+id/ptTelEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="top"
+            android:layout_gravity="center|top"
+            android:autofillHints=""
             android:ems="10"
-            android:gravity="top"
             android:inputType="textPersonName"
-            android:text="@string/ptTelEmail" />
+            android:hint="@string/ptTelEmail" />
 
         <Button
             android:id="@+id/btnWeiter"
