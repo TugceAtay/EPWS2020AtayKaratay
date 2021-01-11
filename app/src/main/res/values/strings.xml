@@ -20,10 +20,29 @@
     <string name="rewe">Rewe Markt</string>
     <string name="netto">Netto Discounter</string>
 
-    <string name="detailGeschaeftAldi">Aldi Kölner Str. 2-14      51702 Bergneustadt    Öffnungszeiten:        Montag - Samstag    08:00 Uhr - 21:00 Uhr</string>
-    <string name="detailGeschaeftLidl">Lidl Industriestraße 2     51643 Gummersbach     Öffnungszeiten:        Montag - Samstag    07:00 Uhr - 21:00 Uhr</string>
-    <string name="detailGeschaeftRewe">Rewe Stadionstraße 2       51702 Bergneustadt         Öffnungszeiten:        Montag - Samstag    08:00 Uhr - 22:00 Uhr</string>
-    <string name="detailGeschaeftNetto">Netto Kölner Str. 304  51702 Bergneustadt     Öffnungszeiten:        Montag - Samstag    07:00 Uhr - 21:00 Uhr</string>
+    <string name="detailGeschaeftAldi1">Aldi  Kölner Str. 2-14      51702 Bergneustadt    Öffnungszeiten:        Montag - Samstag    08:00 Uhr - 21:00 Uhr</string>
+    <string name="detailGeschaeftAldi2">Aldi &#10;Krummenohler Str. 2      51645 Gummersbach    Öffnungszeiten:        Montag - Samstag    08:00 Uhr - 21:00 Uhr</string>
+    <string name="detailGeschaeftAldi3">Aldi &#10;Beckestr. 57      51647 Gummersbach    Öffnungszeiten:        Montag - Samstag    08:00 Uhr - 21:00 Uhr</string>
+
+
+    <string name="detailGeschaeftLidl1">Lidl
+        Industriestraße 2
+        51643 Gummersbach
+        Öffnungszeiten:
+        Montag - Samstag
+        07:00 Uhr - 21:00 Uhr</string>
+    <string name="detailGeschaeftLidl2">Lidl
+        Vollmerhauserstr.70
+        51645 Gummersbach
+        Öffnungszeiten:
+        Montag - Samstag
+        08:00 Uhr - 21:00 Uhr</string>
+    <string name="detailGeschaeftLidl3">Lidl
+        Kölner Str. 30
+        51702 Bergneustadt
+        Öffnungszeiten:
+        Montag - Samstag
+        07:00 Uhr - 21:00 Uhr</string>
 
     <string name="obst">Obst</string>
     <string name="gemuese">Gemüse</string>
@@ -32,6 +51,9 @@
     <string name="drogerie">Drogerie</string>
     <string name="konserven">Konserven</string>
 
+    <string name="auswaehlen">Filiale auswählen</string>
+
+    <string name="kategorie">Kategorien</string>
 
 
 </resources>

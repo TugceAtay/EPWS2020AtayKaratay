@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#3C3C3C"
-    android:backgroundTint="#3C3C3C"
+    android:background="#A45C5B5B"
+    android:backgroundTint="#4C4B4B"
     android:orientation="vertical">
 
 
@@ -38,7 +38,7 @@
         android:layout_width="343dp"
         android:layout_height="230dp"
         android:layout_gravity="center"
-        android:backgroundTint="#FFFFFF"
+        android:backgroundTint="#9A9A9A"
         app:srcCompat="@mipmap/standortpng" />
 
     <LinearLayout
@@ -57,8 +57,9 @@
             android:layout_gravity="center|top"
             android:autofillHints=""
             android:ems="10"
+            android:hint="@string/ptName"
             android:inputType="textPersonName"
-            android:hint="@string/ptName"/>
+            android:nextFocusDown="@+id/ptName" />
 
         <EditText
             android:id="@+id/ptAdresse"
@@ -67,8 +68,9 @@
             android:layout_gravity="center|top"
             android:autofillHints=""
             android:ems="10"
+            android:hint="@string/ptAdresse"
             android:inputType="textPersonName"
-            android:hint="@string/ptAdresse" />
+            android:nextFocusDown="@+id/ptAdresse" />
 
         <EditText
             android:id="@+id/ptGebGes"
@@ -76,8 +78,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center|top"
             android:ems="10"
+            android:hint="@string/ptGebGes"
             android:inputType="textPersonName"
-            android:hint="@string/ptGebGes" />
+            android:nextFocusDown="@+id/ptGebGes" />
 
         <EditText
             android:id="@+id/ptTelEmail"
@@ -86,8 +89,9 @@
             android:layout_gravity="center|top"
             android:autofillHints=""
             android:ems="10"
+            android:hint="@string/ptTelEmail"
             android:inputType="textPersonName"
-            android:hint="@string/ptTelEmail" />
+            android:nextFocusDown="@+id/ptTelEmail" />
 
         <Button
             android:id="@+id/btnWeiter"
@@ -96,8 +100,9 @@
             android:layout_gravity="bottom|right"
             android:layout_marginEnd="15dp"
             android:layout_marginBottom="20dp"
-            android:gravity="bottom|right"
-            android:text="@string/weiter" />
+            android:gravity="center"
+            android:text="@string/weiter"
+            android:textColor="#000000" />
 
     </LinearLayout>
 

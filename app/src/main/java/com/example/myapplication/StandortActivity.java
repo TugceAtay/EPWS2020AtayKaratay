@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.database.SQLException;
 import android.database.sqlite.*;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -15,9 +16,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class StandortActivity extends AppCompatActivity implements View.OnClickListener{
 
-    TextView begruessung;
-    EditText ptGebGes, ptName, ptAdresse, ptTelEmail;
+    TextView begruessung, ptGebGes, ptName, ptAdresse, ptTelEmail;
     ImageView standort;
+    EditText standortEingabe;
     Button btnWeiter;
 
     final String prefNameFirstStart = "FirstAppStart";
@@ -41,14 +42,78 @@ public class StandortActivity extends AppCompatActivity implements View.OnClickL
         btnWeiter.setOnClickListener(this);
 
 
-        ptGebGes.setOnClickListener(view -> ptGebGes.setText(""));
+        ptGebGes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ptName.setText("");
+            }
+        }) ;
+        //OnkeyListener überspringt 1 feld immer
+        ptGebGes.setOnKeyListener(new View.OnKeyListener() {
+            @Override
+            public boolean onKey(View v, int keyCode, KeyEvent event) {
+                if ((keyCode == KeyEvent.KEYCODE_ENTER)) {
+                    ptTelEmail.requestFocus();
+                    return true;
+                } else
+                    return false;
+            }
+        });
 
-        ptName.setOnClickListener(view -> ptName.setText(""));
+        ptName.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ptName.setText("");
+            }
+        });
+        ptName.setOnKeyListener(new View.OnKeyListener() {
+            @Override
+            public boolean onKey(View v, int keyCode, KeyEvent event) {
+                if ((keyCode == KeyEvent.KEYCODE_ENTER)) {
+                    ptAdresse.requestFocus();
+                    return true;
+                } else
+                    return false;
+            }
+        });
 
-        ptTelEmail.setOnClickListener(view -> ptTelEmail.setText(""));
+        ptTelEmail.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ptTelEmail.setText("");
+            }
+        });
 
-        ptAdresse.setOnClickListener(view -> ptAdresse.setText(""));
+        ptTelEmail.setOnKeyListener(new View.OnKeyListener() {
+            @Override
+            public boolean onKey(View v, int keyCode, KeyEvent event) {
+                if ((keyCode == KeyEvent.KEYCODE_ENTER)) {
+                    btnWeiter.requestFocus();
+                    return true;
+                } else
+                    return false;
+            }
+        });
+
+        ptAdresse.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ptAdresse.setText("");
+            }
+        });
+
+        ptAdresse.setOnKeyListener(new View.OnKeyListener() {
+            @Override
+            public boolean onKey(View v, int keyCode, KeyEvent event) {
+                if ((keyCode == KeyEvent.KEYCODE_ENTER)) {
+                    ptGebGes.requestFocus();
+                    return true;
+                } else
+                    return false;
+            }
+        });
     }
+
 
     @Override
     public void onClick(View view){

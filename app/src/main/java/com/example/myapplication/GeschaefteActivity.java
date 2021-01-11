@@ -3,20 +3,17 @@ package com.example.myapplication;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
-import android.widget.CompoundButton;
 import android.widget.ImageButton;
-import android.widget.Switch;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class GeschaefteActivity extends AppCompatActivity implements View.OnClickListener{
+public class GeschaefteActivity extends AppCompatActivity {
 
     TextView tvGeschaefte, tvGeschaefteText;
-  // Switch switchLidl, switchAldi, switchNetto, switchRewe;
-  // Button btnWeiter;
-   ImageButton ibLidl, ibAldi;
+    // Switch switchLidl, switchAldi, switchNetto, switchRewe;
+    // Button btnWeiter;
+    ImageButton ibLidl, ibAldi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,39 +51,23 @@ public class GeschaefteActivity extends AppCompatActivity implements View.OnClic
        switchRewe = findViewById(R.id.switchRewe);
 
        btnWeiter = findViewById(R.id.btnWeiter);
+
        btnWeiter.setOnClickListener(this);
-
+*/
         ibLidl.setOnClickListener( new View.OnClickListener(){
-                                        public void onClick(View v){
-
-
-
-                                            Intent intent = new Intent(this, AuswahlGeschaeftActivity.class);
-                                            startActivity(intent);
-                                            this.finish();
-
-                                        }
-
+                                       public void onClick(View v){
+                                           Intent intent = new Intent(GeschaefteActivity.this, AuswahlGeschaeftLidlActivity.class);
+                                           startActivity(intent);
+                                       }
                                    }
+        );
 
-
-
-        );*/
-        ibAldi.setOnClickListener(this);
-    }
-
-
-
-    @Override
-    public void onClick(View view){
+        ibAldi.setOnClickListener( new View.OnClickListener(){
+                                       public void onClick(View v){
+                                           Intent intent = new Intent(GeschaefteActivity.this, AuswahlGeschaeftAldiActivity.class);
+                                           startActivity(intent);
+                                       }
+                                   }
+        );
 
     }
-
-/*
-    public void auswaehlenGeschaefte(){
-        Intent intent = new Intent(this, AuswahlGeschaeftActivity.class);
-        intent.putExtra("switchLidl", switchLidl.isChecked());
-    }*/
-
-
-}
