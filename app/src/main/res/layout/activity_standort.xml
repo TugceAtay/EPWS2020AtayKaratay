@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3C3C3C"
+    android:backgroundTint="#3C3C3C"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/begruessung"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="casual"
+        android:gravity="top"
+        android:text="@string/begruessung"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/tvdatenerfassen"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:fontFamily="monospace"
+        android:text="@string/tvdatenerfassen"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/standort"
+        android:layout_width="328dp"
+        android:layout_height="230dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@mipmap/standortpng" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="341dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="0dp"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:transitionGroup="false">
+
+        <EditText
+            android:id="@+id/ptName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:ems="10"
+            android:gravity="top"
+            android:inputType="textPersonName"
+            android:text="@string/ptName"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/ptAdresse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="40dp"
+            android:backgroundTint="#FFFFFF"
+            android:gravity="top"
+            android:inputType="textPersonName"
+            android:text="@string/ptAdresse" />
+
+        <EditText
+            android:id="@+id/ptGebGes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="@string/ptGebGes"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/ptGebGes" />
+
+        <EditText
+            android:id="@+id/ptTelEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:ems="10"
+            android:gravity="top"
+            android:inputType="textPersonName"
+            android:text="@string/ptTelEmail" />
+
+        <Button
+            android:id="@+id/btnWeiter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="bottom|right"
+            android:text="@string/weiter" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">VistiAndBuy</string>
+    <string name="startView">StartBild</string>
+    <string name="begruessung">Willkommen zu Visit`N`Buy</string>
+    <string name="tvdatenerfassen">Als aller erstes Benötigen wir einige Daten</string>
+    <string name="standort">Standort</string>
+    <string name="start">Start</string>
+    <string name="standortEingabe">Dein Standort</string>
+    <string name="weiter">Weiter</string>
+    <string name="ptName">Vorname und Name</string>
+    <string name="ptAdresse">Anschrift, Plz</string>
+    <string name="ptTelEmail">TelefonnummerEmail</string>
+    <string name="ptGebGes">Geburtstag und Geschlecht</string>
+    <string name="geschaefte">Geschäfte</string>
+    <string name="IhrGeschaefte">Ihr ausgewähltes Geschäft</string>
+    <string name="geschaeftText">Bitte wählen Sie hier Ihr Geschäft aus.</string>
+    <string name="auswahlgeschaeft">Wählen Sie bitte das Geschäft aus, welches Sie besuchen möchten!</string>
+    <string name="aldi">Aldi</string>
+    <string name="lidl">Lidl</string>
+    <string name="rewe">Rewe Markt</string>
+    <string name="netto">Netto Discounter</string>
+
+    <string name="detailGeschaeftAldi">Aldi Kölner Str. 2-14      51702 Bergneustadt    Öffnungszeiten:        Montag - Samstag    08:00 Uhr - 21:00 Uhr</string>
+    <string name="detailGeschaeftLidl">Lidl Industriestraße 2     51643 Gummersbach     Öffnungszeiten:        Montag - Samstag    07:00 Uhr - 21:00 Uhr</string>
+    <string name="detailGeschaeftRewe">Rewe Stadionstraße 2       51702 Bergneustadt         Öffnungszeiten:        Montag - Samstag    08:00 Uhr - 22:00 Uhr</string>
+    <string name="detailGeschaeftNetto">Netto Kölner Str. 304  51702 Bergneustadt     Öffnungszeiten:        Montag - Samstag    07:00 Uhr - 21:00 Uhr</string>
+
+    <string name="obst">Obst</string>
+    <string name="gemuese">Gemüse</string>
+    <string name="brot">Brot</string>
+    <string name="süßware">Süßwaren</string>
+    <string name="drogerie">Drogerie</string>
+    <string name="konserven">Konserven</string>
+
+
+
+</resources>
