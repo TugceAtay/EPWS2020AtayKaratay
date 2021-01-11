@@ -1,1 +1,0 @@
-Hier befindet sich unser Prototyp
