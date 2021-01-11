@@ -20,7 +20,7 @@ public class GeschaefteActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_geschaefte);
 
-        tvGeschaefte =findViewById(R.id.tvGeschaefte);
+        tvGeschaefte = findViewById(R.id.tvGeschaefte);
         tvGeschaefteText = findViewById(R.id.tvGeschaefteText);
         ibAldi = findViewById(R.id.ibAldi);
         ibLidl = findViewById(R.id.ibLidl);
@@ -54,20 +54,21 @@ public class GeschaefteActivity extends AppCompatActivity {
 
        btnWeiter.setOnClickListener(this);
 */
-        ibLidl.setOnClickListener( new View.OnClickListener(){
-                                       public void onClick(View v){
-                                           Intent intent = new Intent(GeschaefteActivity.this, AuswahlGeschaeftLidlActivity.class);
-                                           startActivity(intent);
-                                       }
-                                   }
+        ibLidl.setOnClickListener(new View.OnClickListener() {
+                                      public void onClick(View v) {
+                                          Intent intent = new Intent(GeschaefteActivity.this, AuswahlGeschaeftLidlActivity.class);
+                                          startActivity(intent);
+                                      }
+                                  }
         );
 
-        ibAldi.setOnClickListener( new View.OnClickListener(){
-                                       public void onClick(View v){
-                                           Intent intent = new Intent(GeschaefteActivity.this, AuswahlGeschaeftAldiActivity.class);
-                                           startActivity(intent);
-                                       }
-                                   }
+        ibAldi.setOnClickListener(new View.OnClickListener() {
+                                      public void onClick(View v) {
+                                          Intent intent = new Intent(GeschaefteActivity.this, AuswahlGeschaeftAldiActivity.class);
+                                          startActivity(intent);
+                                      }
+                                  }
         );
 
     }
+}
