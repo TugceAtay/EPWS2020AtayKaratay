@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_standort"
+            android:icon="@drawable/ic_standort"
+            android:title="Standort"/>
+
+        <item android:id="@+id/nav_einkaufswagen"
+            android:icon="@drawable/ic_einkaufswagen"
+            android:title="Einkaufswagen"/>
+
+        <item android:id="@+id/nav_suche"
+            android:icon="@drawable/ic_suche"
+            android:title="Suche"/>
+
+        <item android:id="@+id/nav_daten"
+            android:icon="@drawable/ic_daten"
+            android:title="Profil"/>
+
+        <item android:id="@+id/nav_einstellungen"
+            android:icon="@drawable/ic_settings"
+            android:title="Eiinstellungen"/>
+    </group>
+
+
+</menu>

@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">VistiAndBuy</string>
+    <string name="startView">StartBild</string>
+    <string name="begruessung">Willkommen zu Visit`N`Buy</string>
+    <string name="tvdatenerfassen">Als aller erstes Benötigen wir einige Daten</string>
+    <string name="standort">Standort</string>
+    <string name="start">Start</string>
+    <string name="standortEingabe">Dein Standort</string>
+    <string name="weiter">Weiter</string>
+    <string name="ptName">Vorname und Name</string>
+    <string name="ptAdresse">Anschrift, Plz</string>
+    <string name="ptTelEmail">TelefonnummerEmail</string>
+    <string name="ptGebGes">Geburtstag und Geschlecht</string>
+    <string name="geschaefte">Geschäfte</string>
+    <string name="IhrGeschaefte">Ihr ausgewähltes Geschäft</string>
+    <string name="geschaeftText">Bitte wählen Sie hier Ihr Geschäft aus.</string>
+    <string name="auswahlgeschaeft">Wählen Sie bitte das Geschäft aus, welches Sie besuchen möchten!</string>
+    <string name="aldi">Aldi</string>
+    <string name="lidl">Lidl</string>
+    <string name="rewe">Rewe Markt</string>
+    <string name="netto">Netto Discounter</string>
+
+    <string name="detailGeschaeftAldi1">Aldi  Kölner Str. 2-14      51702 Bergneustadt    Öffnungszeiten:        Montag - Samstag    08:00 Uhr - 21:00 Uhr</string>
+    <string name="detailGeschaeftAldi2">Aldi &#10;Krummenohler Str. 2      51645 Gummersbach    Öffnungszeiten:        Montag - Samstag    08:00 Uhr - 21:00 Uhr</string>
+    <string name="detailGeschaeftAldi3">Aldi &#10;Beckestr. 57      51647 Gummersbach    Öffnungszeiten:        Montag - Samstag    08:00 Uhr - 21:00 Uhr</string>
+
+
+    <string name="detailGeschaeftLidl1">Lidl
+        Industriestraße 2
+        51643 Gummersbach
+        Öffnungszeiten:
+        Montag - Samstag
+        07:00 Uhr - 21:00 Uhr</string>
+    <string name="detailGeschaeftLidl2">Lidl
+        Vollmerhauserstr.70
+        51645 Gummersbach
+        Öffnungszeiten:
+        Montag - Samstag
+        08:00 Uhr - 21:00 Uhr</string>
+    <string name="detailGeschaeftLidl3">Lidl
+        Kölner Str. 30
+        51702 Bergneustadt
+        Öffnungszeiten:
+        Montag - Samstag
+        07:00 Uhr - 21:00 Uhr</string>
+
+    <string name="obst">Obst</string>
+    <string name="gemuese">Gemüse</string>
+    <string name="brot">Brot</string>
+    <string name="süßware">Süßwaren</string>
+    <string name="drogerie">Drogerie</string>
+    <string name="konserven">Konserven</string>
+
+    <string name="auswaehlen">Filiale auswählen</string>
+
+    <string name="kategorie">Kategorien</string>
+
+
+    <string name="tvAlleProduktkategorien">Wählen Sie Ihre Kategorie aus!</string>
+    <string name="tvKategegorieTiefkuehl">Tiefkühlprodute</string>
+    <string name="tvKategegorieBrotundAufstrich">Brot und Aufstriche</string>
+    <string name="tvKategegorieObstundGemuese">Obst und Gemüse</string>
+    <string name="tvKategegorieDrogerie">Drogeriebedarf</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_produkt_menu">ProduktMenu</string>
+    <string name="title_activity_a_a_a_a_a_a_a_a_a_a">AAAAAAAAAAA</string>
+    <string name="title_activity_menu_bar">MenuBar</string>
+
+
+</resources>

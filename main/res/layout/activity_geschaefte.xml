@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GeschaefteActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include
+                layout="@layout/produkte_toolbar"/>
+
+            <ImageButton
+                android:id="@+id/ibLidl"
+                android:layout_width="wrap_content"
+                android:layout_height="226dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="130dp"
+                app:srcCompat="@drawable/lidllogo" />
+
+            <ImageButton
+                android:id="@+id/ibAldi"
+                style="@android:style/Widget.DeviceDefault.ImageButton"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/aldilogo" />
+
+        </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white">
+
+        <include
+            android:layout="@layout/produkte_nav_drawer" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.651">
+
+        <TextView
+            android:id="@+id/tvGeschaefte"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:layout_marginTop="100dp"
+            android:fontFamily="monospace"
+            android:text="@string/geschaefte"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.108" />
+
+        <TextView
+            android:id="@+id/tvGeschaefteText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="@string/geschaeftText"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.549"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvGeschaefte" />
+
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>
